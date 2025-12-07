@@ -1,0 +1,78 @@
+{
+    "pinned": [
+        {
+            "art": "art/dramelonrefsheetsfw.png",
+            "alt": "",
+            "art-card-label": "reference sheet",
+            "header": "Dramelon's reference sheet",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@wisterigato"}
+            ]
+        }
+    ],
+    "normal": [
+        {
+            "art": "art/dramelonrefsheetsfw.png",
+            "header": "Dramelon's reference sheet",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@wisterigato"}
+            ]
+        },
+        {
+            "art": "art/fanta-meloncat.png",
+            "header": "fanta-meloncat.png",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@FFF"}
+            ]
+        },
+        {
+            "art": "art/fanta-melondog.png",
+            "header": "fanta-melondog.png",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@FFF"}
+            ]
+        },
+        {
+            "art": "art/IMG_1628-music.png",
+            "header": "IMG_1628",
+            "desc": [
+                {"p": "Mujick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick 🙀 Weary Cat Emoji | Meaning, Copy And Paste 🙀 Weary Cat Emoji | Meaning, Copy And Paste 🙀 Weary Cat Emoji | Meaning, Copy And Paste"}
+            ],
+            "meta": [
+                {"t": "@MU3IC"}
+            ]
+        },
+        {
+            "art": "art/IMG_2836-lapis.jpeg",
+            "header": "IMG_2836",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@lapis"}
+            ]
+        },
+        {
+            "art": "art/MomoroUHT.png",
+            "header": "Goober holding PC",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@MomoroUHT"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dramelon Portal</title>
+    <link rel="icon" type="image/png" href="./_assets/watermelon_1f349.png">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --card-bg: rgba(255, 255, 255, 0.88);
+            --card-border: rgba(0, 0, 0, 0.08);
+            --text: #1d1d1f;
+            --muted: #6b7280;
+            --accent: #ec4899;
+            --bg: radial-gradient(circle at top, #ffe4ef, #f8bbd0 45%, #f9a8d4);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .card {
+            width: min(420px, 100%);
+            background: var(--card-bg);
+            border: 5px solid var(--card-border);
+            border-radius: 32px;
+            padding: 32px 28px;
+            text-align: center;
+            color: var(--text);
+            box-shadow: 0 25px 60px rgba(236, 72, 153, 0.25);
+            backdrop-filter: blur(8px);
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 24px;
+            border: 2px solid rgba(0, 0, 0, 0.05);
+            margin-bottom: 18px;
+        }
+
+        .card h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            letter-spacing: -0.5px;
+        }
+
+        .card p {
+            margin: 12px 0 24px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .card a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 22px;
+            border-radius: 999px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            background: var(--accent);
+            box-shadow: 0 12px 25px rgba(236, 72, 153, 0.4);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 35px rgba(236, 72, 153, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="./art/fanta-meloncat.png" alt="Dramelon avatar">
+        <h1>_drameloN🍉</h1>
+        <p>A tiny splash page that keeps things cozy before you hop into the full art universe~</p>
+        <a href="./view/home.html">Enter Main Page →</a>
+    </div>
+</body>
+
+</html>
