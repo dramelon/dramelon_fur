@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;500&display=swap");
+
+:root {
+    --pink-bg: #ffeef3;
+    --card-bg: #fff5fa;
+    --accent: #ff6da5;
+    --text-dark: #52212f;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--pink-bg);
+    color: var(--text-dark);
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    border: none;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 12px 30px rgba(82, 33, 47, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.menu-toggle .bar {
+    width: 24px;
+    height: 3px;
+    border-radius: 999px;
+    background: var(--text-dark);
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+body.nav-open .menu-toggle {
+    transform: translateX(250px);
+    background: var(--accent);
+    box-shadow: 0 18px 35px rgba(82, 33, 47, 0.2);
+}
+
+body.nav-open .menu-toggle .bar {
+    background: #fff;
+}
+
+body.nav-open .menu-toggle .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+body.nav-open .menu-toggle .bar:nth-child(2) {
+    opacity: 0;
+}
+
+body.nav-open .menu-toggle .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.page-dim {
+    position: fixed;
+    inset: 0;
+    background: rgba(82, 33, 47, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 4;
+}
+
+body.nav-open .page-dim {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 240px;
+    background: var(--card-bg);
+    box-shadow: 4px 0 30px rgba(82, 33, 47, 0.15);
+    padding: 2rem 1.5rem;
+    transform: translateX(-100%);
+    transition: transform 0.35s ease;
+    z-index: 5;
+    display: flex;
+    align-items: flex-start;
+}
+
+body.nav-open .sidebar {
+    transform: translateX(0);
+}
+
+.sidebar-nav {
+    width: 100%;
+}
+
+.sidebar-title {
+    font-family: "Fraunces", "Inter", serif;
+    font-size: 1.25rem;
+    margin: 0 0 1.5rem;
+}
+
+.sidebar-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus-visible {
+    color: var(--accent);
+}
+
+.page-shell {
+    width: min(960px, 90vw);
+    margin: 0 auto;
+    padding: 3rem 0 4rem;
+}
+
+.feature-card {
+    background: var(--card-bg);
+    border-radius: 32px;
+    padding: 1.5rem;
+    box-shadow: 0 20px 45px rgba(82, 33, 47, 0.15);
+    border: 2px solid rgba(255, 109, 165, 0.2);
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(240px, 1fr) 1fr;
+    align-items: center;
+}
+
+.feature-image {
+    margin: 0;
+    text-align: center;
+}
+
+.feature-image img {
+    width: 100%;
+    border-radius: 28px;
+    border: 3px solid rgba(82, 33, 47, 0.1);
+    display: block;
+}
+
+.feature-image figcaption {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.feature-copy {
+    font-family: "Fraunces", "Inter", serif;
+}
+
+.label {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 0 0.75rem;
+}
+
+.quote {
+    font-family: "Inter", sans-serif;
+    font-size: 1.15rem;
+    color: rgba(82, 33, 47, 0.85);
+    margin: 0;
+}
+
+.intro {
+    margin-top: 3rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 12px 30px rgba(82, 33, 47, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+
+.intro h1 {
+    margin-top: 0;
+    font-size: clamp(2.25rem, 5vw, 3.25rem);
+    font-family: "Fraunces", "Inter", serif;
+}
+
+.intro p {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 640px) {
+    .page-shell {
+        padding: 2rem 0 3rem;
+    }
+
+    .feature-card {
+        grid-template-columns: 1fr;
+    }
+}
