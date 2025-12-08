@@ -9,21 +9,53 @@
                 {"p": ""}
             ],
             "meta": [
-                {"t": "@wisterigato"}
+                {"t": "@Wisterigato (Wisteria)"}
             ]
-        }
-    ],
-    "normal": [
+        },
         {
-            "art": "art/dramelonrefsheetsfw.png",
-            "header": "Dramelon's reference sheet",
+            "art": "art/Melon-Lewd1.gif",
+            "alt": "",
+            "art-card-label": "",
+            "header": "Wagging butt",
             "desc": [
                 {"p": ""}
             ],
             "meta": [
-                {"t": "@wisterigato"}
+                {"t": "@DUREXDrache (Polka)"}
             ]
         },
+        {
+            "art": "art/delta-2023-07-08_23.13.20.png",
+            "header": "2023-07-08_23.13.20.png ??",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@Delta (unknown artist)"}
+            ]
+        },
+        {
+            "art": "art/caveseeker-me-silly.png",
+            "header": "blep",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "CaveSeeker (@drawrconicfox)"}
+            ]
+        },
+        {
+            "art": "art/caveseeker-me-angi.png",
+            "header": "grr",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "CaveSeeker (@drawrconicfox)"}
+            ]
+        }
+    ],
+    "normal": [
         {
             "art": "art/fanta-meloncat.png",
             "header": "fanta-meloncat.png",
@@ -72,6 +104,16 @@
             ],
             "meta": [
                 {"t": "@MomoroUHT"}
+            ]
+        },
+        {
+            "art": "art/revy-newyear2025.png",
+            "header": "HPNY 2025",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@Revy_Bricozy (Karasabachi)"}
             ]
         }
     ]
