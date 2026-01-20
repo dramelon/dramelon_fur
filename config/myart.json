@@ -1,8 +1,8 @@
 {
     "pinned": [
         {
-            "art": "art/66B95FBC_dramelon-FurredDragonREF.png",
-            "alt": "Dramelon sitting on haunches holding magic orb",
+            "art": "art/myart/Melon/66B95FBC_dramelon-FurredDragonREF.png",
+            "alt": "Melon sitting on haunches holding magic orb",
             "art-card-label": "my best creation",
             "header": "Magical power",
             "desc": [
@@ -14,11 +14,27 @@
                 {"t": "iPad Air (5th generation)"},
                 {"x": "66B95FBC"}
             ]
+        },
+        {
+            "art": "art/myart/Melon/69345288_dramelon-grass-giggles.png",
+            "alt": "Melon giggles shyly laying on the grassy ground",
+            "art-card-label": "first local public sticker (x17 pieces)",
+            "header": "Shyly giggles",
+            "desc": [
+                {"p": "This is my first art if Melon me draw myself after got my own refsheet"},
+                {"p": "Actually this ever be only a draft version, but until da silly blue-red protogen give me his sticker making me want to make my own and here is it!"},
+                {"p": "Me planning to printing more of this sticker but there a mistake on her ears where me sillilly erase the line when me attempting to make her fur sharper, so there will be only 17 pieces including the one on my computer (actually there was 18 but me lose one when go to camping)"}
+            ],
+            "meta": [
+                {"t": "ibisPaint X"},
+                {"t": "iPad Air (5th generation)"},
+                {"x": "69345288"}
+            ]
         }
     ],
     "normal": [
         {
-            "art": "art/61EF6738_cyan-pixilrgbf.png",
+            "art": "art/myart/others/61EF6738_cyan-pixilrgbf.png",
             "alt": "Cyan dragon pixel art",
             "header": "Cyan dragon pixel art",
             "desc": [
@@ -32,7 +48,7 @@
             ]
         },
         {
-            "art": "art/63556410_GamingToaster สำเนา.png",
+            "art": "art/myart/others/63556410_GamingToaster สำเนา.png",
             "alt": "gamer protogen skin",
             "header": "Gaming Toaster",
             "desc": [
@@ -46,7 +62,7 @@
             ]
         },
         {
-            "art": "art/6465B4CC_whatisup2131-ProtoShark-MintFox.png",
+            "art": "art/myart/others/6465B4CC_whatisup2131-ProtoShark-MintFox.png",
             "alt": "protogen shark and mint fox craziishin whatisup2131",
             "art-card-label": "comission",
             "header": "ProtoShark and MintFox",
@@ -58,7 +74,7 @@
             ]
         },
         {
-            "art": "art/6465C356_StageBattle.png",
+            "art": "art/myart/Melon/6465C356_StageBattle.png",
             "alt": "stage battles ghostly dramelon and craziishin",
             "header": "Stage Battles",
             "desc": [],
@@ -69,7 +85,7 @@
             ]
         },
         {
-            "art": "art/64BA908C_dramelon-wmomorioUHT-misplayz.png",
+            "art": "art/myart/Melon/64BA908C_dramelon-wmomorioUHT-misplayz.png",
             "alt": "dramelon w/ wmomorioUHT misplayz",
             "header": "My first IRL furry friend in same university and same branchor",
             "desc": [
@@ -84,7 +100,7 @@
             ]
         },
         {
-            "art": "art/64BF3F60_RevyBricozy.png",
+            "art": "art/myart/others/64BF3F60_RevyBricozy.png",
             "alt": "64BF3F60_RevyBricozy",
             "header": "RevyBricozy",
             "desc": [],
@@ -95,7 +111,7 @@
             ]
         },
         {
-            "art": "art/64CF8FB4_FantaOrangeFox.png",
+            "art": "art/myart/others/64CF8FB4_FantaOrangeFox.png",
             "alt": "FantaOrangeFox",
             "header": "Fanta OrangeFox",
             "desc": [],
@@ -106,7 +122,7 @@
             ]
         },
         {
-            "art": "art/64D2EBDC_whatisup2131-MelonFox.png",
+            "art": "art/myart/others/64D2EBDC_whatisup2131-MelonFox.png",
             "alt": "whatisup2131-MelonFox",
             "art-card-label": "comission",
             "header": "It's melon fox!",
@@ -120,7 +136,7 @@
             ]
         },
         {
-            "art": "art/64EB2FF8_pang.png",
+            "art": "art/myart/others/64EB2FF8_pang.png",
             "alt": "pang",
             "header": "Pang",
             "desc": [],
@@ -131,7 +147,7 @@
             ]
         },
         {
-            "art": "art/64F4AE70_SchoolClosed.png",
+            "art": "art/myart/Melon/64F4AE70_SchoolClosed.png",
             "alt": "SchoolClosed",
             "header": "Roblox: Closed School",
             "desc": [],
@@ -142,7 +158,7 @@
             ]
         },
         {
-            "art": "art/652584C4_rivu-dragon.png",
+            "art": "art/myart/others/652584C4_rivu-dragon.png",
             "alt": "rivu-dragon",
             "art-card-label": "comission",
             "header": "652584C4_rivu-dragon.png",
@@ -152,7 +168,7 @@
             ]
         },
         {
-            "art": "art/65919E10_dramelon-NewYearDancing-hpny24.png",
+            "art": "art/myart/Melon/65919E10_dramelon-NewYearDancing-hpny24.png",
             "alt": "dramelon-NewYearDancing-hpny24",
             "header": "65919E10_dramelon-NewYearDancing-hpny24.png",
             "desc": [],
@@ -161,7 +177,7 @@
             ]
         },
         {
-            "art": "art/65A4CDDC_dramelon-wSplashy.png",
+            "art": "art/myart/Melon/65A4CDDC_dramelon-wSplashy.png",
             "alt": "dramelon-wSplashy",
             "header": "65A4CDDC_dramelon-wSplashy.png",
             "desc": [],
@@ -170,7 +186,7 @@
             ]
         },
         {
-            "art": "art/661E8EB0_fanta-feral.png",
+            "art": "art/myart/others/661E8EB0_fanta-feral.png",
             "alt": "fanta-feral",
             "header": "661E8EB0_fanta-feral.png",
             "desc": [],
@@ -179,7 +195,7 @@
             ]
         },
         {
-            "art": "art/66AEF324_dramelon-WolfVersion.png",
+            "art": "art/myart/Melon/66AEF324_dramelon-WolfVersion.png",
             "alt": "dramelon-WolfVersion",
             "header": "66AEF324_dramelon-WolfVersion.png",
             "desc": [],
@@ -188,7 +204,7 @@
             ]
         },
         {
-            "art": "art/66B95FBC_dramelon-FurredDragonREF.png",
+            "art": "art/myart/Melon/66B95FBC_dramelon-FurredDragonREF.png",
             "alt": "dramelon-FurredDragonREF",
             "header": "66B95FBC_dramelon-FurredDragonREF.png",
             "desc": [],
@@ -197,7 +213,7 @@
             ]
         },
         {
-            "art": "art/6773D8C4_dramelon-funky.png",
+            "art": "art/myart/Melon/6773D8C4_dramelon-funky.png",
             "alt": "dramelon-funky",
             "header": "6773D8C4_dramelon-funky.png",
             "desc": [],
@@ -206,7 +222,7 @@
             ]
         },
         {
-            "art": "art/678D2F90_guestdaprotogen-box.png",
+            "art": "art/myart/boxCollection/678D2F90_guestdaprotogen-box.png",
             "alt": "guestdaprotogen-box",
             "header": "678D2F90_guestdaprotogen-box.png",
             "desc": [],
@@ -215,7 +231,7 @@
             ]
         },
         {
-            "art": "art/678FD4FC_phoenix-box.png",
+            "art": "art/myart/boxCollection/678FD4FC_phoenix-box.png",
             "alt": "phoenix-box",
             "header": "678FD4FC_phoenix-box.png",
             "desc": [],
@@ -224,7 +240,7 @@
             ]
         },
         {
-            "art": "art/67C84B00_guestdaprotogen-goober.png",
+            "art": "art/myart/others/67C84B00_guestdaprotogen-goober.png",
             "alt": "guestdaprotogen-goober",
             "header": "67C84B00_guestdaprotogen-goober.png",
             "desc": [],

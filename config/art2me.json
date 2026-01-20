@@ -3,7 +3,7 @@
         {
             "art": "art/dramelonrefsheetsfw.png",
             "alt": "",
-            "art-card-label": "reference sheet",
+            "art-card-label": "reference sheet / paid comission",
             "header": "Dramelon's reference sheet",
             "desc": [
                 {"p": ""}
@@ -13,9 +13,21 @@
             ]
         },
         {
-            "art": "art/Melon-Lewd1.gif",
+            "art": "art/others/Melon/fishyArts-comission.png",
+            "alt": "fishyArts-comission.png",
+            "art-card-label": "paid comission",
+            "header": "comission",
+            "desc": [
+                {"p": ""}
+            ],
+            "meta": [
+                {"t": "@DUREXDrache (Polka)"}
+            ]
+        },
+        {
+            "art": "art/others/Melon/Melon-Lewd1.gif",
             "alt": "",
-            "art-card-label": "",
+            "art-card-label": "gift",
             "header": "Wagging butt",
             "desc": [
                 {"p": ""}
@@ -25,7 +37,7 @@
             ]
         },
         {
-            "art": "art/delta-2023-07-08_23.13.20.png",
+            "art": "art/others/Melon/delta-2023-07-08_23.13.20.png",
             "header": "2023-07-08_23.13.20.png ??",
             "desc": [
                 {"p": ""}
@@ -35,20 +47,20 @@
             ]
         },
         {
-            "art": "art/caveseeker-me-silly.png",
+            "art": "art/others/Melon/caveseeker-me-silly.png",
             "header": "blep",
             "desc": [
-                {"p": ""}
+                {"p": "silly blep"}
             ],
             "meta": [
                 {"t": "CaveSeeker (@drawrconicfox)"}
             ]
         },
         {
-            "art": "art/caveseeker-me-angi.png",
+            "art": "art/others/Melon/caveseeker-me-angi.png",
             "header": "grr",
             "desc": [
-                {"p": ""}
+                {"p": "he said it was me in angry and annoying mood, so he draw me this to use as pfp"}
             ],
             "meta": [
                 {"t": "CaveSeeker (@drawrconicfox)"}
@@ -57,17 +69,19 @@
     ],
     "normal": [
         {
-            "art": "art/fanta-meloncat.png",
+            "art": "art/others/Melon/fanta-meloncat.png",
             "header": "fanta-meloncat.png",
+            "art-card-label": "gift",
             "desc": [
-                {"p": ""}
+                {"p": "my very first art as cat"}
             ],
             "meta": [
                 {"t": "@FFF"}
             ]
         },
         {
-            "art": "art/fanta-melondog.png",
+            "art": "art/others/Melon/fanta-melondog.png",
+            "art-card-label": "gift",
             "header": "fanta-melondog.png",
             "desc": [
                 {"p": ""}
@@ -77,7 +91,8 @@
             ]
         },
         {
-            "art": "art/IMG_1628-music.png",
+            "art": "art/others/Melon/IMG_1628-music.png",
+            "art-card-label": "gift",
             "header": "IMG_1628",
             "desc": [
                 {"p": "Mujick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick jick 🙀 Weary Cat Emoji | Meaning, Copy And Paste 🙀 Weary Cat Emoji | Meaning, Copy And Paste 🙀 Weary Cat Emoji | Meaning, Copy And Paste"}
@@ -87,7 +102,8 @@
             ]
         },
         {
-            "art": "art/IMG_2836-lapis.jpeg",
+            "art": "art/others/Melon/IMG_2836-lapis.jpeg",
+            "art-card-label": "gift",
             "header": "IMG_2836",
             "desc": [
                 {"p": ""}
@@ -97,7 +113,8 @@
             ]
         },
         {
-            "art": "art/MomoroUHT.png",
+            "art": "art/others/Melon/MomoroUHT.png",
+            "art-card-label": "trade",
             "header": "Goober holding PC",
             "desc": [
                 {"p": ""}
@@ -107,10 +124,11 @@
             ]
         },
         {
-            "art": "art/revy-newyear2025.png",
-            "header": "HPNY 2025",
+            "art": "art/others/Melon/revy-newyear2025.png",
+            "art-card-label": "gift",
+            "header": "HPNY 2K25",
             "desc": [
-                {"p": ""}
+                {"p": "Happy new years 2025!"}
             ],
             "meta": [
                 {"t": "@Revy_Bricozy (Karasabachi)"}
